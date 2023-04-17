@@ -103,3 +103,4 @@ use function Illuminate\Cache\cache;
 
 cache()->put('xxx', 'yyy');
 ```
+
