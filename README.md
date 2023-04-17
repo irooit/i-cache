@@ -1,11 +1,11 @@
-# Laravel 缓存系统
+# Hyperf 缓存
 
 [illuminate/cache](https://github.com/illuminate/cache)
 
 ## 安装
 
 ```
-composer require limingxinleo/i-cache
+composer require irooit/i-cache
 ```
 
 ## 配置
@@ -13,7 +13,7 @@ composer require limingxinleo/i-cache
 创建配置文件
 
 ```shell
-php bin/hyperf.php vendor:publish limingxinleo/i-cache
+php bin/hyperf.php vendor:publish irooit/i-cache
 ```
 
 配置如下
@@ -84,7 +84,7 @@ return [
     |
     */
 
-    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_cache'),
+    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'hyperf'), '_') . '_cache'),
 ];
 
 ```
